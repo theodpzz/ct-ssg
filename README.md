@@ -34,17 +34,17 @@ from argparse import Namespace
 from src.model import Model
 
 args             = Namespace()
-args.n_outputs   = 18
-args.embed_dim   = 512
-args.depth       = 1
-args.hidden_size = [512]
-args.window_size = [16]
-args.nb_triplets = 80
-args.K           = 3
-args.path_resnet = None
-args.dropout     = 0.2
-args.bias        = True
-args.spacing_z   = 0.015
+args.n_outputs   = 18    # Number of abnormalities
+args.embed_dim   = 512   # Dimension of latent space
+args.depth       = 1     # Number of spectral blocks
+args.hidden_size = [512] # Hidden size in GNN module
+args.window_size = [16]  # Receptive field
+args.nb_triplets = 80    # Number of triplets of axial slices
+args.K           = 3     # Spectral filter size
+args.path_resnet = None  # Path of pretrained resnet
+args.dropout     = 0.2   # Dropout
+args.bias        = True  # Bias
+args.spacing_z   = 0.015 # Spacing in mm
 
 device = args.device = torch.device('cpu')
 
