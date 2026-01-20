@@ -44,7 +44,7 @@ args.K           = 3     # Spectral filter size
 args.path_resnet = None  # Path of pretrained resnet
 args.dropout     = 0.2   # Dropout
 args.bias        = True  # Bias
-args.spacing_z   = 0.015 # Spacing in mm
+args.spacing_z   = 1.5   # z-axis spacing in mm
 
 device = args.device = torch.device('cpu')
 
