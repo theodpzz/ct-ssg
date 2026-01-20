@@ -17,7 +17,7 @@ Adjacent axial slices are grouped into triplets, each representing a node in a g
 To clone this repository, use the following command:
 
 ```bash
-git clone https://github.com/theodpzz/ssg.git
+git clone https://github.com/theodpzz/ct-ssg.git
 ```
 
 ### Installation
@@ -35,6 +35,7 @@ import torch
 from argparse import Namespace
 from src.model import Model
 
+# key parameters
 args             = Namespace()
 args.n_outputs   = 18    # Number of abnormalities
 args.embed_dim   = 512   # Dimension of latent space
@@ -50,11 +51,18 @@ args.spacing_z   = 1.5   # z-axis spacing in mm
 
 device = args.device = torch.device('cpu')
 
+# initialize model
 model = Model(args)
 model.to(device);
 
-volumes = torch.randn(1, 1, 240, 480, 480).to(device)
-labels  = torch.randint(0, 2, (1, 18)).float().to(device)
+# initialize dummy volumes and labels
+batch_size = 4
+n_abnormality = 18
+volumes = torch.randn(batch_size, 1, 240, 480, 480).to(device)
+labels  = torch.randint(0, 2, (batch_size, n_abnormality)).float().to(device)
 
+# forward pass
 predictions, loss = model(volumes, labels)
+
+print(f'Shape of predictions: {predictions.shape}')
 ```
