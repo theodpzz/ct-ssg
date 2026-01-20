@@ -10,7 +10,7 @@ Adjacent axial slices are grouped into triplets, each representing a node in a g
 
 <img src="https://github.com/theodpzz/ssg/blob/master/figures/method_overview.png" alt="Method overview" width="900">
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Clone the Repository
 
@@ -66,3 +66,9 @@ predictions, loss = model(volumes, labels)
 
 print(f'Shape of predictions: {predictions.shape}')
 ```
+
+### Orientation
+
+CT scans are reformated such that the first axis points from Inferior to Superior, the second from Right to Left, and the third from Anterior to Posterior (SLP).
+
+<img src="https://github.com/theodpzz/ssg/blob/master/figures/method_overview.png" alt="Method overview" width="900">
