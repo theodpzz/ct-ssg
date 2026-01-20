@@ -1,4 +1,6 @@
-### CT-SSG 🩺👨🏻‍⚕️
+<p align="center">
+  <h2 align="center">Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan 🩺👨🏻‍⚕️</h2>
+</p>
 
 PyTorch [CT-SSG](http://arxiv.org/abs/2510.10779) model implementation.
 
