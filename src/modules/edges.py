@@ -35,7 +35,7 @@ class Edges(nn.Module):
             edge_index: torch.Tensor,
         ) -> torch.Tensor:
         # Distance between 2 nodes
-        distance = torch.abs(edge_index[0, :] - edge_index[1, :]) * self.spacing_z
+        distance = torch.abs(edge_index[0, :] - edge_index[1, :]) * 3 * self.spacing_z
 
         # Edge weights
         edge_weight = 1 / (1 + distance)
