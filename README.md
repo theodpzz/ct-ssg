@@ -57,9 +57,8 @@ model.to(device);
 
 # initialize dummy volumes and labels
 batch_size = 4
-n_abnormality = 18
 volumes = torch.randn(batch_size, 1, 240, 480, 480).to(device)
-labels  = torch.randint(0, 2, (batch_size, n_abnormality)).float().to(device)
+labels  = torch.randint(0, 2, (batch_size, args.n_outputs)).float().to(device)
 
 # forward pass
 predictions, loss = model(volumes, labels)
