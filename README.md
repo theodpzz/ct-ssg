@@ -8,7 +8,7 @@ PyTorch [CT-SSG](http://arxiv.org/abs/2510.10779) model implementation.
 
 Adjacent axial slices are grouped into triplets, each representing a node in a graph. Edges between nodes are weighted according to their physical distance along the z-axis. Node features are enhanced with Triplet Axial Slices positional embeddings, and then processed by a Spectral Block that incorporates Chebyshev graph convolution for structured spectral modeling. The resulting node representations are aggregated via mean pooling and passed to a classification head to predict anomalies.
 
-<img src="https://github.com/theodpzz/ssg/blob/master/figures/method_overview.png" alt="Method overview" width="900">
+<img src="https://github.com/theodpzz/ct-ssg/blob/master/figures/method_overview.png" alt="Method overview" width="900">
 
 ## 🚀 Getting Started
 
@@ -71,4 +71,4 @@ print(f'Shape of predictions: {predictions.shape}')
 
 CT scans are reformated such that the first axis points from Inferior to Superior, the second from Right to Left, and the third from Anterior to Posterior (SLP).
 
-<img src="https://github.com/theodpzz/ssg/blob/master/figures/orientation.png" alt="Orientation" width="900">
+<img src="https://github.com/theodpzz/ct-ssg/blob/master/figures/orientation.png" alt="Orientation" width="900">
