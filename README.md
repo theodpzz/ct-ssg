@@ -2,11 +2,13 @@
   <h2 align="center">Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan 🩺👨🏻‍⚕️</h2>
 </p>
 
-PyTorch [CT-SSG](http://arxiv.org/abs/2510.10779) model implementation.
+🔥 PyTorch CT-SSG model implementation.
+
+📜 arXiv preprint: [link](http://arxiv.org/abs/2510.10779).
 
 ## Method Overview
 
-Adjacent axial slices are grouped into triplets, each representing a node in a graph. Edges between nodes are weighted according to their physical distance along the z-axis. Node features are enhanced with Triplet Axial Slices positional embeddings, and then processed by a Spectral Block that incorporates Chebyshev graph convolution for structured spectral modeling. The resulting node representations are aggregated via mean pooling and passed to a classification head to predict anomalies.
+(1) Adjacent axial slices are grouped into triplets, each representing a node in a graph. (2) Edges between nodes are weighted according to their physical distance along the z-axis. (3) Node features are enhanced with Triplet Axial Slices positional embeddings, and then processed by a Spectral Block that incorporates Chebyshev graph convolution for structured spectral modeling. (4) The resulting node representations are aggregated via mean pooling and passed to a classification head to predict anomalies.
 
 <img src="https://github.com/theodpzz/ct-ssg/blob/main/figures/method_overview.png" alt="Method overview" width="900">
 
