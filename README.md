@@ -8,7 +8,7 @@
 
 ## Method Overview
 
-(1) Adjacent axial slices are grouped into triplets, each representing a node in a graph. (2) Edges between nodes are weighted according to their physical distance along the z-axis. (3) Node features are enhanced with Triplet Axial Slices positional embeddings, and then processed by a Spectral Block that incorporates Chebyshev graph convolution for structured spectral modeling. (4) The resulting node representations are aggregated via mean pooling and passed to a classification head to predict anomalies.
+(1) Adjacent axial slices are grouped into triplets, each representing a node in a graph. (2) Edges between nodes are weighted according to their physical distance along the z-axis. (3) Node features are enhanced with Triplet Axial Slices positional embeddings, and then processed by a Spectral Block that incorporates Chebyshev graph convolution for structured spectral modeling. (4) The resulting node representations are aggregated via mean pooling and passed to a classification head to predict abnormalities.
 
 <img src="https://github.com/theodpzz/ct-ssg/blob/main/figures/method_overview.png" alt="Method overview" width="900">
 
