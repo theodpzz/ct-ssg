@@ -19,8 +19,9 @@
 
 ### Notice
 
+CT-SSG manuscript is currently under review.
+
 This repository is currently under review for compliance with institutional and collaborative agreements.
-Public release of the code is temporarily restricted.
 
 The repository will be made publicly available once the approval process is completed.
 
