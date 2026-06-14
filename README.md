@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center">Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan  🩺👨🏻‍⚕️</h2>
-  <h4 align="center"><b>Under review</b></h4>
+  <h4 align="center"><b>MELBA 2026</b></h4>
   <p align="center">
     <a href="http://arxiv.org/pdf/2510.10779"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2510.10779-b31b1b.svg"></a>
     <a href="https://youtu.be/00dRw8bX4lM"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Video-red?logo=youtube"></a>
