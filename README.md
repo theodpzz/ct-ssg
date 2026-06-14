@@ -4,6 +4,8 @@
   <p align="center">
     <a href="http://arxiv.org/pdf/2510.10779"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2510.10779-b31b1b.svg"></a>
     <a href="https://youtu.be/00dRw8bX4lM"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Video-red?logo=youtube"></a>
+    <a href="https://huggingface.co/theodpzz/ct-ssg"><img alt="Weights" src="https://img.shields.io/badge/-HuggingFace-3B4252?style=flat&logo=huggingface&logoColor="></a>
+  </a>
   </p>
 </p>
 
