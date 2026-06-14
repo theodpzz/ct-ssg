@@ -47,11 +47,17 @@ This code is provided for **academic and research purposes only**, to support re
 If you find this repository useful for your work, we would appreciate the following citation:
 
 ```bibtex
-@article{dipiazza_2026_ctssg,
-        title   = {Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan},
-        author  = {Di Piazza, Theo and Lazarus, Carole and Nempont, Olivier and Boussel, Loic},
-        year    = {2026},
-        journal = {Machine Learning for Biomedical Imaging Journal (MELBA)},
-        pages   = {359--387},
+@article{dipiazza_ssg_2026,
+    title   = "Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scans",
+    author  = "Di Piazza, Theo and Lazarus, Carole and Nempont, Olivier and Boussel, Loic",
+    journal = "Machine Learning for Biomedical Imaging",
+    volume  = "2026",
+    issue   = "June 2026 issue",
+    year    = "2026",
+    pages   = "359--388",
+    issn    = "2766-905X",
+    doi     = "https://doi.org/10.59275/j.melba.2026-87e3",
+    url     = "https://melba-journal.org/"
 }
+
 ```
