@@ -17,6 +17,7 @@
 
   > #### **Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan**<be>  
   >Machine Learning for Biomedical Imaging Journal (MELBA), 2026
+
   >Theo Di Piazza, Carole Lazarus, Olivier Nempont, Loic Boussel
 ---
 
