@@ -46,9 +46,10 @@ If you find this repository useful for your work, we would appreciate the follow
 
 ```bibtex
 @article{dipiazza_2026_ctssg,
-        title = {Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan},
-        author = {Di Piazza, Theo and Lazarus, Carole and Nempont, Olivier and Boussel, Loic},
-        year = {2026},
-        note = {Preprint, under review},
+        title   = {Structured Spectral Graph Representation Learning for Multi-label Abnormality Analysis from 3D CT Scan},
+        author  = {Di Piazza, Theo and Lazarus, Carole and Nempont, Olivier and Boussel, Loic},
+        year    = {2026},
+        journal = {Machine Learning for Biomedical Imaging Journal (MELBA)},
+        pages   = {359--387},
 }
 ```
