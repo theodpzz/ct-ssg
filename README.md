@@ -5,6 +5,7 @@
     <a href="http://arxiv.org/pdf/2510.10779"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2510.10779-b31b1b.svg"></a>
     <a href="https://youtu.be/00dRw8bX4lM"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Video-red?logo=youtube"></a>
     <a href="https://huggingface.co/theodpzz/ct-ssg"><img alt="Weights" src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface"></a>
+    <a href="https://www.melba-journal.org/"><img src="https://img.shields.io/badge/MELBA-2026-4b44ce.svg" alt="MELBA 2026"></a>
   </a>
   </p>
 </p>
